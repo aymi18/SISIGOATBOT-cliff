@@ -23,7 +23,6 @@ module.exports = {
 ╰┈➤*sim [message] -> talk to bot
 ╰┈➤*callad [message] -> report any problem encountered
 ╰┈➤*help [command] -> information and usage of command\n\nHave fun using it enjoy!❤️\n𝗠𝗬 𝗠𝗔𝗦𝗧𝗘𝗥: 𝙔𝙊𝙔𝘼 $ 𝘼𝙔𝙈𝙄`,
- attachment: await global.utils.getStreamFromURL("https://i.imgur.com/M4luPbE.gif")
  });
  }
  }
