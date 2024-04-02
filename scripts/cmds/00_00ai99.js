@@ -4,7 +4,7 @@ async function ai({ message: m, event: e, args: a, usersData: u }) {
 	var p = [
 		`${await getPrefix(e.threadID)}${this.config.name}`,
 		`${this.config.name}`
-		/*"ai"
+		/*"yuno"
 		*you can add more prefix here
 		*/
 	];
@@ -59,7 +59,7 @@ async function ai({ message: m, event: e, args: a, usersData: u }) {
 
 module.exports = {
 	config: {
-		name: "ai99",
+		name: "yuno99",
 		aliases: [],
 		version: 1.6,
 		author: "Jun",
