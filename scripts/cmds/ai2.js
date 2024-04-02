@@ -19,7 +19,7 @@ module.exports = {
 
 	langs: {
 		en: {
-			chatting: 'Please wait...',
+			chatting: 'Wait lang honey hanapan kita sagot',
 			error: 'If this report spam please contact Kenlie Navacilla Jugarap'
 		}
 	},
