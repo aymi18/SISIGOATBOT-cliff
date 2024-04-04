@@ -6,7 +6,8 @@ async function ai({ message: m, event: e, args: a, usersData: u }) {
 		`${this.config.name}`
 		/*"yuno"
 		*you can add more prefix here
-		*/
+		*/"Yuno"
+   */"YUNO"
 	];
 
 	if (p.some(b => a[0].toLowerCase().startsWith(b))) {
