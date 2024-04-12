@@ -4,10 +4,10 @@ async function ai({ message: m, event: e, args: a, usersData: u }) {
 	var p = [
 		`${await getPrefix(e.threadID)}${this.config.name}`,
 		`${this.config.name}`
-		/*"yuno"
+		/*"sisi"
 		*you can add more prefix here
-		*/"Yuno"
-   */"YUNO"
+		*/"Sisi"
+   */"SISI"
 	];
 
 	if (p.some(b => a[0].toLowerCase().startsWith(b))) {
@@ -60,7 +60,7 @@ async function ai({ message: m, event: e, args: a, usersData: u }) {
 
 module.exports = {
 	config: {
-		name: "yuno99",
+		name: "sisi99",
 		aliases: [],
 		version: 1.6,
 		author: "Jun",
