@@ -2,7 +2,7 @@ const axios = require('axios');
 
 module.exports = {
 	config: {
-		name: "gpt4",
+		name: "sisigpt",
 		author: "cliff",
 		version: "1.5",
 		countDown: 5,
@@ -24,7 +24,7 @@ module.exports = {
 			}
 
 			if (!prompt) {
-				return api.sendMessage('Please provide a prompt to generate a text response.GPT4 {questions}\nExample: GPT4 What is the meaning of life?\n', event.threadID, messageID);
+				return api.sendMessage(' 🐰 | 𝚊𝚗𝚘 𝚋𝚊𝚗𝚐 𝚒𝚝𝚊𝚝𝚊𝚗𝚘𝚗𝚐 𝚖𝚘 𝚕𝚘𝚟𝚎𝚢? (GPT4) {questions}\n𝙴𝚡𝚊𝚖𝚙𝚕𝚎:  𝚜𝚒𝚜𝚒𝚐𝚙𝚝 𝚠𝚑𝚊𝚝 𝚒𝚜 𝚝𝚑𝚎 𝚖𝚎𝚊𝚗𝚒𝚗𝚐 𝚘𝚏 𝚕𝚒𝚏𝚎?\n', event.threadID, messageID);
 			}
 
 			const gpt4_api = `https://ai-chat-gpt-4-lite.onrender.com/api/hercai?question=${encodeURIComponent(prompt)}`;
