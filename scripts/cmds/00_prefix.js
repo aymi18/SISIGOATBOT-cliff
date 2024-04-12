@@ -14,13 +14,30 @@ module.exports = {
  onChat: async function({ event, message, getLang }) {
  if (event.body && event.body.toLowerCase() === "prefix") {
  return message.reply({
- body: `█▄█ █░█ █▄░█ █▀█\n░█░ █▄█ █░▀█ █▄█
-𝗵𝗶 𝗵𝗼𝗻𝗲𝘆, 𝗶𝗺 𝘆𝘂𝗻𝗼, 𝗮𝗻𝗴 𝗣𝗢𝗚𝗜𝗡𝗚 𝗕𝗢𝗧 𝗻𝗶 𝗠𝗮𝘀𝘁𝗲𝗿 𝗬𝗢𝗬𝗔/𝗔𝗬𝗠𝗜, \n 𝗨𝗦𝗘 𝗠𝗬 𝗣𝗥𝗘𝗙𝗜𝗫 [ 𓆩 * 𓆪 ]\n
-𝗦𝗢𝗠𝗘 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 𝗧𝗛𝗔𝗧 𝗠𝗔𝗬 𝗛𝗘𝗟𝗣 𝗬𝗢𝗨:
-╰┈➤*help [number of page] -> see commands
-╰┈➤*sim [message] -> talk to bot
-╰┈➤*callad [message] -> report any problem encountered
-╰┈➤*help [command] -> information and usage of command\n\nHave fun using it enjoy!❤️\n𝗠𝗬 𝗠𝗔𝗦𝗧𝗘𝗥: 𝙔𝙊𝙔𝘼 $ 𝘼𝙔𝙈𝙄`,
+ body: `──────▄▀▄─────▄▀▄
+─────▄█░░▀▀▀▀▀░░█▄
+─▄▄──█░░░░░░░░░░░█──▄▄
+█▄▄█─█░░▀░░┬░░▀░░█─█▄▄█
+
+░██████╗██╗░██████╗██╗
+██╔════╝██║██╔════╝██║
+╚█████╗░██║╚█████╗░██║
+░╚═══██╗██║░╚═══██╗██║
+██████╔╝██║██████╔╝██║
+╚═════╝░╚═╝╚═════╝░╚═╝
+
+
+ ╭─────────────────────╮
+ | 🐰 ﹝ . ﹞ 𝘂𝘀𝗲 𝗺𝘆 𝗽𝗿𝗲𝗳𝗶𝘅 𝗹𝗼𝘃𝗲.
+ | 🐰 ﹝ 𝗵𝗲𝗹𝗽 ﹞ 𝘁𝘆𝗽𝗲 𝘁𝗵𝗶𝘀 𝘁𝗼 𝘀𝗲𝗲 𝗰𝗺𝗱𝘀
+ | 🐰 𝗨𝗦𝗘 𝗧𝗛𝗘 𝗕𝗢𝗧 𝗔𝗟𝗪𝗔𝗬𝗦 𝗙𝗢𝗥 
+ |    𝗣𝗥𝗘𝗩𝗘𝗡𝗧𝗜𝗡𝗚 𝗢𝗙𝗙𝗟𝗜𝗡𝗘
+ |     
+ |
+ | 🐇 𝗖𝗢𝗡𝗧𝗔𝗖𝗧 𝗧𝗛𝗘 𝗕𝗢𝗧’𝗦 
+ |    𝗔𝗗𝗠𝗜𝗡 𝗜𝗙 𝗧𝗛𝗘 𝗕𝗢𝗧 𝗖𝗠𝗗 
+ |    𝗗𝗜𝗘𝗦 :https://www.facebook.com/profile.php?id=100095262681590
+ ╰─────────────────────╯`,
  });
  }
  }
