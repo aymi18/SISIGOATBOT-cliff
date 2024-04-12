@@ -4,7 +4,7 @@ const path = require("path");
 
 module.exports = {
 	config: {
-		name: "pinterest",
+		name: "pinte",
 		version: "1.0.2",
 		author: "JVB",
 		role: 0,
