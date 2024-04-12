@@ -1,7 +1,7 @@
 {
   "facebookAccount": {
-    "email": "yoyamerch+18@yandex.ru",
-    "password": "yunobot2024",
+    "email": "yoyamerch+28@yandex.ru",
+    "password": "sisi0528",
     "2FASecret": "",
     "i_user": "",
     "proxy": null,
@@ -28,9 +28,9 @@
   "OWNER": "𝗬𝗢𝗬𝗔 / 𝗔𝗬𝗠𝗜",
   "AGE": "𝟭𝟴",
   "GENDER": "𝗙𝗘𝗠𝗔𝗟𝗘",
-  "nickNameBot": "𝗬𝗨𝗡𝗢🤴",
+  "nickNameBot": "𝗦𝗶𝘀𝗶🐰",
   "FACEBOOK": "https://www.facebook.com/100095262681590",
-  "prefix": "*",
+  "prefix": ".",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
