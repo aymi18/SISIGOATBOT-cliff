@@ -3,12 +3,12 @@ const url = "https://ai-tools.replit.app";
 
 module.exports = {
 		config: {
-				name: "ai5",
+				name: "sisi5",
 				version: "1.0.0",
 				role: 0,
 				author: "Deku",
 				shortDescription: "Talk to AI with continuous conversation.",
-				aliases: ['yaz', 'Yaz', 'AI', 'Ai'],
+				aliases: ['sisi', 'Sisi', 'AI', 'Ai'],
 				countDown: 0,
 				category: "Ai",
 				guide: {
@@ -27,7 +27,7 @@ module.exports = {
 						const data = response.data;
 						return sendMessage(data.gpt4);
 				} catch (error) {
-						console.error('Error talking to AI:', error.message);
+						console.error('Error talking to SISI AI:', error.message);
 						return sendMessage('An error occurred while talking to AI. Please try again later.');
 				}
 		}
