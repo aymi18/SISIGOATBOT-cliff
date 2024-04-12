@@ -15,14 +15,12 @@ module.exports = {
 		envConfig: {}
 	},
 	onStart: async function ({ message }) {
-		const botName = "yazky";
-		const botPrefix = "!";
-		const authorName = "CliffVincent";
-		const ownAge = "18";
+		const botName = "🐰𝚂𝙸𝚂𝙸🐰";
+		const botPrefix = ".";
+		const authorName = "𝗬𝗢𝗬𝗔🍭";
+		const ownAge = "𝘀𝗲𝗰𝗿𝗲𝘁";
 		const teamName = "Github team";
-		const authorFB = "https://www.facebook.com/swordigo.swordslush";
-		const authorInsta = "Thead469";
-		const tikTok = "tiktok.com/@Cliffthegreat0";
+		const authorFB = "https://www.facebook.com/profile.php?id=100095262681590";
 		const urls = JSON.parse(fs.readFileSync('cliff.json'));
 		const link = urls[Math.floor(Math.random() * urls.length)];
 		const now = moment().tz('Asia/Jakarta');
@@ -36,19 +34,20 @@ module.exports = {
 		const uptimeString = `${days} days ${hours} hours ${minutes} minutes ${seconds} seconds`;
 
 		message.reply({
-			body: `《  Bot & Owner Info 》
-\Name: ${botName}
-\Bot Prefix: ${botPrefix}
-\owner: ${authorName}
-\age : ${ownAge}
-\Facebook: ${authorFB}
-\Instagram: ${authorInsta}
-\TikTok: ${tikTok}
-\Datee: ${date}
-\Time: ${time}
-\Team: ${teamName}
-\Uptime: ${uptimeString}
-\===============`,
+			body: `━‌۫━‌۫━‌۫━‌۫━‌۫━‌۫━‌۫━‌۫━‌۫━‌۫━‌۫━‌۫✧
+            ᘏ⑅ᘏ   .🎀°•⠀✶ . ࣪ ׅ ʬʬʬ.yoya.merch '🛍️ノ
+           (๑•ᴗ•๑)つ 𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥 | 𝗜𝗡𝗙𝗢 ⪩⪨
+           ━‌۫━‌۫∪━‌۫━‌۫━‌۫━‌۫━‌۫━‌۫━‌۫━‌۫━‌۫━‌۫━‌۫━‌۫✧
+\𝗡𝗔𝗠𝗘🐰: ${botName}
+\𝗕𝗢𝗧 𝗣𝗥𝗘𝗙𝗜𝗫🐰: ${botPrefix}
+\𝗢𝗪𝗡𝗘𝗥🐰: ${authorName}
+\𝗔𝗚𝗘🐰: ${ownAge}
+\𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞🐰: ${authorFB}
+\𝗗𝗔𝗧𝗘🐰: ${date}
+\𝗧𝗜𝗠𝗘🐰: ${time}
+\𝗧𝗘𝗔𝗠: ${teamName}
+\𝗨𝗣𝗧𝗜𝗠𝗘: ${uptimeString}
+\━‌۫━‌۫━‌۫━‌۫━‌۫━‌۫━‌۫━‌۫━‌۫━‌۫━‌۫━‌۫━‌۫━‌۫━‌۫━‌۫━‌۫━‌━‌۫━‌۫━‌۫━‌۫━‌۫✧`,
 			attachment: await global.utils.getStreamFromURL(link)
 		});
 	},
