@@ -15,7 +15,7 @@ const { openAIUsing, openAIHistory } = global.temp;
 
 module.exports = {
   config: {
-    name: "gpt",
+    name: "sisi",
     version: "1.2",
     author: "NTKhang",
     countDown: 5,
@@ -56,7 +56,7 @@ module.exports = {
       processingRequest: "Processing your request, this process may take a few minutes, please wait",
       invalidContent: "Please enter the content you want to chat",
       error: "An error has occurred\n%1",
-      clearHistory: "Your chat history with gpt has been deleted"
+      clearHistory: "Your chat history with sisi has been deleted"
     }
   },
 
