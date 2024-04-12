@@ -2,7 +2,7 @@ const axios = require('axios');
 
 module.exports = {
     config: {
-      name: "ai3",
+      name: "sisi3",
       author: "August Quinn/kira", // hindi ito collab, ako kasi nag convert :>
       version: "69",
       cooldowns: 5,
