@@ -16,12 +16,12 @@ config: {
   onStart: async function ({ api, event }) {
   try {
     const ownerInfo = {
-      name: 'Yazky Ai',
-      gender: 'Male',
-      age: 'Unknown',
-      height: 'Unknown',
+      name: '𝚈𝙾𝚈𝙰🍭',
+      gender: '𝙵𝙴𝙼𝙰𝙻𝙴',
+      age: '𝚜𝚎𝚌𝚛𝚎𝚝',
+      height: '𝚋𝚊𝚜𝚝𝚊 𝚖𝚊𝚝𝚊𝚗𝚐𝚔𝚊𝚍 𝚊𝚔𝚘',
       facebookLink: 'stalk moko mwa',
-      nick: 'Yazky'
+      nick: '𝚈𝚘𝚢𝚊'
     };
 
     const bold = 'https://i.imgur.com/DDO686J.mp4'; // Replace with your Google Drive videoid link https://drive.google.com/uc?export=download&id=here put your video id
@@ -38,7 +38,7 @@ config: {
     fs.writeFileSync(videoPath, Buffer.from(videoResponse.data, 'binary'));
 
     const response = `
-Owner Information:🧾
+Owner Information:🍭
 Name: ${ownerInfo.name}
 Gender: ${ownerInfo.gender}
 Age: ${ownerInfo.age}
@@ -54,7 +54,7 @@ Nick: ${ownerInfo.nick}
     }, event.threadID, event.messageID);
 
     if (event.body.toLowerCase().includes('ownerinfo')) {
-      api.setMessageReaction('🚀', event.messageID, (err) => {}, true);
+      api.setMessageReaction('🐰', event.messageID, (err) => {}, true);
     }
   } catch (error) {
     console.error('Error in ownerinfo command:', error);
